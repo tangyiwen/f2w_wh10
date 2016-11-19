@@ -4,8 +4,8 @@ $(document).ready(function(){
     $("span.qScrollTop").text(scrollVal);
     if( scrollVal > 300 ){
       $(".figure img").css({display:"block"});
-      $(".img_left").animate({marginLeft:'0px'});
-      $(".img_right").animate({marginRight:'0px'});
+      $(".img_left").animate({marginLeft:'0px'},"slow");
+      $(".img_right").animate({marginRight:'0px'},"slow");
   }
   });
 });
